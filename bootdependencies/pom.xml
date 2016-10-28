@@ -7,18 +7,9 @@
 		<version>1.4.1.RELEASE</version>
 	</parent>
 	<groupId>pl.writeonly.scalaservice</groupId>
-	<artifactId>crud</artifactId>
+	<artifactId>bootdependencies</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<properties>
-	  <scala-compiler.version>2.11.0-RC4</scala-compiler.version>
-	</properties>
 	<dependencies>
-		<dependency>
-			<groupId>org.scala-lang</groupId>
-			<artifactId>scala-compiler</artifactId>
-			<version>${scala-compiler.version}</version>
-		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
