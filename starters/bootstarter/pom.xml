@@ -6,8 +6,8 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.4.1.RELEASE</version>
 	</parent>
-	<groupId>pl.writeonly.scalaservice</groupId>
-	<artifactId>bootdependencies</artifactId>
+	<groupId>pl.writeonly.scalaservices</groupId>
+	<artifactId>bootstarter</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<dependencies>
 		<dependency>
