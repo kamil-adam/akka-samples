@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration
 
-import pl.writeonly.scalaservices.boot.domain.ConnectionService
+import pl.writeonly.bootservices.domain.ConnectionService
 
 @EnableAutoConfiguration
 object BootApp extends App {

@@ -6,9 +6,7 @@
 		<artifactId>services</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<groupId>pl.writeonly.scalaservices</groupId>
 	<artifactId>dropservices</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<dependencies>
 		<dependency>
 			<groupId>pl.writeonly.scalaservices</groupId>

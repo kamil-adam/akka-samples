@@ -1,28 +1,29 @@
 package pl.writeonly.dropservices;
-public class HierarchyApp {
 
-	public static void main(String[] args) {
-		EventBus eb = new EventBus();
-		eb.register(new IntHandler());
-		eb.register(new NumberHandler());
-		eb.post(1);
-		eb.post(2L);
-	}
+import com.google.common.eventbus._;
+
+object HierarchyApp extends App {
+
+  val eb = new EventBus();
+  eb.register(new IntListener());
+  eb.register(new NumberHandler());
+  eb.post(1);
+  eb.post(2L);
 }
 
-class IntHandler{
+class IntListener {
 
-	@Subscribe
-	public void forInt(Integer i){
-		System.out.println("Integer " + i);
-	}
+  @Subscribe
+  def handleEvent(i: Integer) {
+    println("Integer " + i);
+  }
 
 }
-class NumberHandler{
+class NumberListener {
 
-	@Subscribe
-	public void forInt(Number i){
-		System.out.println("Number " + i);
-	}
+  @Subscribe
+  def handleEvent(i: Number) {
+    println("Number " + i);
+  }
 
 }

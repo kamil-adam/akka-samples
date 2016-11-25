@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>pl.writeonly.scalaservices</groupId>
 		<artifactId>scalaservices</artifactId>
-		<version>1.0-SNAPSHOT</version>
+		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<packaging>pom</packaging>
 	<artifactId>starters</artifactId>
@@ -12,6 +12,6 @@
 		<module>bootstarter</module>
 		<module>dropstarter</module>
 		<module>akkastarter</module>
-		<module>mainstarter</module>
+<!-- 		<module>mainstarter</module> -->
 	</modules>
 </project>
