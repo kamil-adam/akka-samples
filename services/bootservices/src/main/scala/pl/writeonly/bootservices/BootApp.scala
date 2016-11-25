@@ -1,4 +1,4 @@
-package pl.writeonly.scalaservices.boot
+package pl.writeonly.bootservices
 
 import org.springframework.boot.SpringApplication
 

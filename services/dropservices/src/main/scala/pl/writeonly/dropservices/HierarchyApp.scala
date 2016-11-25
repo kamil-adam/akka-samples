@@ -1,3 +1,4 @@
+package pl.writeonly.dropservices;
 public class HierarchyApp {
 
 	public static void main(String[] args) {

@@ -10,10 +10,10 @@
 	<artifactId>bootservices</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
-		<encoding>UTF-8</encoding>
-		<maven.compiler.source>1.7</maven.compiler.source>
-		<maven.compiler.target>1.7</maven.compiler.target>
-		<scala.version>[2.10.0,2.11.0)</scala.version>
+<!-- 		<encoding>UTF-8</encoding> -->
+<!-- 		<maven.compiler.source>1.7</maven.compiler.source> -->
+<!-- 		<maven.compiler.target>1.7</maven.compiler.target> -->
+<!-- 		<scala.version>[2.10.0,2.11.0)</scala.version> -->
 	</properties>
 	<dependencies>
 		<dependency>
