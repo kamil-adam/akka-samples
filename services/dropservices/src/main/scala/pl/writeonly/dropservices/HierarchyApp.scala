@@ -6,7 +6,7 @@ object HierarchyApp extends App {
 
   val eb = new EventBus();
   eb.register(new IntListener());
-  eb.register(new NumberHandler());
+  eb.register(new NumberListener());
   eb.post(1);
   eb.post(2L);
 }
