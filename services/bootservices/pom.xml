@@ -8,16 +8,12 @@
 	</parent>
 	<artifactId>bootservices</artifactId>
 	<properties>
-<!-- 		<encoding>UTF-8</encoding> -->
-<!-- 		<maven.compiler.source>1.7</maven.compiler.source> -->
-<!-- 		<maven.compiler.target>1.7</maven.compiler.target> -->
-<!-- 		<scala.version>[2.10.0,2.11.0)</scala.version> -->
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>pl.writeonly.scalaservices</groupId>
 			<artifactId>bootstarter</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>1.4.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 	<build>
@@ -42,7 +38,7 @@
 			</plugins>
 		</pluginManagement>
 		<sourceDirectory>src/main/scala</sourceDirectory>
-		<testSourceDirectory>src/test/scala</testSourceDirectory>
+<!-- 		<testSourceDirectory>src/test/scala</testSourceDirectory> -->
 		<plugins>
 			<plugin>
 				<groupId>org.scala-tools</groupId>

@@ -13,6 +13,6 @@
 		<module>bootservices</module>
 		<module>dropservices</module>
 		<module>akkaservices</module>
-<!-- 		<module>mainservices</module> -->
+		<module>mainservices</module>
 	</modules>
 </project>
