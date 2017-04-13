@@ -16,7 +16,6 @@
 	</properties>
 
 	<modules>
-		<module>domain</module>
 		<module>starters</module>
 		<module>services</module>
 	</modules>

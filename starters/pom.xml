@@ -9,9 +9,6 @@
 	<packaging>pom</packaging>
 	<artifactId>starters</artifactId>
 	<modules>
-		<module>bootstarter</module>
-		<module>dropstarter</module>
 		<module>akkastarter</module>
-<!-- 		<module>mainstarter</module> -->
 	</modules>
 </project>

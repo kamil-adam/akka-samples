@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/services/akkaservices/akkaservices.iml" filepath="$PROJECT_DIR$/services/akkaservices/akkaservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starters/akkastarter/akkastarter.iml" filepath="$PROJECT_DIR$/starters/akkastarter/akkastarter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/bootservices/bootservices.iml" filepath="$PROJECT_DIR$/services/bootservices/bootservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starters/bootstarter/bootstarter.iml" filepath="$PROJECT_DIR$/starters/bootstarter/bootstarter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/domain.iml" filepath="$PROJECT_DIR$/domain/domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/dropservices/dropservices.iml" filepath="$PROJECT_DIR$/services/dropservices/dropservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starters/dropstarter/dropstarter.iml" filepath="$PROJECT_DIR$/starters/dropstarter/dropstarter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/mainservices/mainservices.iml" filepath="$PROJECT_DIR$/services/mainservices/mainservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scalaservices.iml" filepath="$PROJECT_DIR$/scalaservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/services.iml" filepath="$PROJECT_DIR$/services/services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starters/starters.iml" filepath="$PROJECT_DIR$/starters/starters.iml" />
+    </modules>
+  </component>
+</project>

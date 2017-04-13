@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="akkaservices" />
+        <module name="akkastarter" />
+        <module name="bootservices" />
+        <module name="bootstarter" />
+        <module name="domain" />
+        <module name="dropservices" />
+        <module name="dropstarter" />
+        <module name="mainservices" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="akkaservices" target="1.7" />
+      <module name="akkastarter" target="1.5" />
+      <module name="bootservices" target="1.7" />
+      <module name="bootstarter" target="1.6" />
+      <module name="domain" target="1.7" />
+      <module name="dropservices" target="1.7" />
+      <module name="dropstarter" target="1.5" />
+      <module name="mainservices" target="1.7" />
+      <module name="scalaservices" target="1.7" />
+      <module name="services" target="1.7" />
+      <module name="starters" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -10,9 +10,6 @@
 	<artifactId>services</artifactId>
 
 	<modules>
-		<module>bootservices</module>
-		<module>dropservices</module>
 		<module>akkaservices</module>
-		<module>mainservices</module>
 	</modules>
 </project>
