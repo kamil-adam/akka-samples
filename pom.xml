@@ -16,8 +16,7 @@
 	</properties>
 
 	<modules>
-		<module>starters</module>
-		<module>services</module>
+		<module>akka-sample</module>
 	</modules>
 	
 	
